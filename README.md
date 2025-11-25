@@ -9,12 +9,6 @@ Orion is an embedded intelligence stack that fuses IMU, ultrasonic, and optical 
 - `tools/` — host-side helpers for data capture and hardware validation.
 - `docs/` — supplementary design briefs and timing notes.
 
-## Quick Start
-```bash
-make -C firmware build
-make -C firmware flash PORT=/dev/tty.usbmodemXXXX
-```
-
 ## Feature Highlights
 1. Deterministic 200 Hz control loop.
 2. Custom fixed-point inference core (dense layers + LUT activations).
